@@ -1,0 +1,23 @@
+program gcdofnumbers;
+
+var
+  a, b : integer;
+
+begin
+  read(a);
+  read(b);
+ 
+  while a <> b do
+  begin
+    if a < b then 
+    begin
+     b := b - a;
+    end; 
+    if a > b then 
+    begin
+      a := a - b;
+    end; 
+  end;
+  write("gdc:");
+  write(a); 
+end.

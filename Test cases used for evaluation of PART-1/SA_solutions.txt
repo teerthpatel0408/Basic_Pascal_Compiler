@@ -1,0 +1,17 @@
+File name 	Result
+
+input0.txt     valid input
+input1.txt     valid input
+input2.txt     valid input
+input3.txt     valid input
+input4.txt     syntax error
+input5.txt     syntax error
+
+
+Grading scheme: 
+
+1. if only 1 test case wrong : -0.5
+2. two test cases wrong : -1.5
+3. three test cases wrong: -2
+4. if the code is compiling: 3 
+5. if the code is present (seems covers all constructs) and not compiled: 2

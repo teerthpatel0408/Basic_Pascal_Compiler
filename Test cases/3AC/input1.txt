@@ -1,0 +1,26 @@
+program NumberOfDigits;
+var
+  number, count, i, j: Integer;
+begin
+  
+  read(number);
+  count := 0;
+  i :=0; 
+  j := 1; 
+  while number <> 0 do
+  begin
+    if number <> 0 then
+    begin
+      count:=count+1;
+      i := i+10*j;
+    end
+    else 
+    begin
+     count := count;
+     i := i-10/j;
+    end; 
+    number := number / 10;
+  end;
+  write("The number of digits is: ");
+  write(count);
+end.

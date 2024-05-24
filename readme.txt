@@ -1,0 +1,38 @@
+AMMTV007
+
+ACHYUT DEDANIA 2021A7PS2807H
+MANTHAN PATEL 2021A7PS2691H
+MEET PATEL 2021A7PS2692H
+TEERTH PATEL 2021A7PS2090H
+VASU BHADJA 2021A7PS2569H
+
+NOTE : PLACE THE INPUT TEXT FILE IN EACH INDIVIDUAL FOLDER
+
+LEXICAL ANALYSIS :
+lex AMMTV007.l
+gcc lex.yy.c -ll
+./a.out
+
+SYNTAX ANALYSIS :
+yacc -d AMMTV007.y
+lex AMMTV007.l
+gcc y.tab.c lex.yy.c -ll
+./a.out
+
+SEMANTIC ANALYSIS :
+yacc -d AMMTV007.y
+lex AMMTV007.l
+gcc y.tab.c lex.yy.c -ll
+./a.out
+
+THREE ADDRESS CODE :
+yacc -d AMMTV007.y
+lex AMMTV007.l
+gcc y.tab.c lex.yy.c -ll
+./a.out
+
+FINAL STAGE :
+yacc -d AMMTV007.y
+lex AMMTV007.l
+gcc y.tab.c lex.yy.c -ll
+./a.out

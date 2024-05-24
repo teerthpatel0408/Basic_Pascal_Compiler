@@ -1,0 +1,34 @@
+program ArrayAverage;
+var
+  
+  i, sum, n, temp,   maxValue: Integer;
+  average : real;
+  c, n : char; 
+  
+  
+begin
+  
+  read(n);
+  read(temp); 
+  maxValue:=temp; 
+  sum := t + 10; 
+  for i := 2 to n do
+  begin
+    read(temp); 
+    if temp > maxValue then
+    begin
+      maxValue := temp; 
+      
+    end;
+    sum := sum + temp;
+     
+  end; 
+  
+  Average := sum + c;
+  sum := sum + Average; 
+  write("Maxvalue:"); 
+  write(Maxvalue);
+  write("Average");
+  write(sum);
+end.
+
